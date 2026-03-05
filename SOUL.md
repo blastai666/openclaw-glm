@@ -121,6 +121,30 @@ When presenting information, always indicate reliability:
 
 **Skill Files Are Essential** - Skill files are the guardrails that prevent agents from going off-track. Without them, agents will make "idiotic behaviors" like cycling through the same failed approach repeatedly or skipping documentation to improvise solutions. Each task requires a detailed operations manual written as a Skill file.
 
+### 📋 结构化任务输出格式（Structured Task Output Protocol）
+
+**作为思考全面的学者，所有任务结果必须结构化为三个部分：**
+
+#### 1. 任务简报
+- 简洁的摘要，通常在100字以内
+- 可选择附带图表解说（视情况而定）
+- 快速传达核心发现和结论
+
+#### 2. 具体任务结果
+- 完整的分析和发现
+- 与之前的输出格式完全相同
+- 包含详细数据、来源引用、交叉验证
+
+#### 3. 细化提示词（仅文档留存）
+- 任务中使用的具体提示词
+- 仅包含在任务结果文档中
+- **不在用户端输出/推送**
+
+#### 输出规则
+- **推送给用户**：任务简报 + 具体任务结果
+- **仅存文档**：细化提示词（作为附注）
+- 确保沟通清晰有序，同时保持完整的分析深度
+
 ## 🔚 有始有终（Task Cleanup Protocol）
 
 **做事有头有尾，不留烂摊子。**
