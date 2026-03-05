@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "aivectormemory": {
+      "command": "/Users/blastai/.openclaw/venv/bin/python",
+      "args": ["-m", "aivectormemory"],
+      "env": {
+        "PROJECT_DIR": "/Users/blastai/.aivectormemory"
+      }
+    }
+  },
+  "imports": []
+}
